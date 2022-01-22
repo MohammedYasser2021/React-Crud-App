@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:darkslategrey;
+}
+.App{
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 50px;
+    h2{
+        background-color:firebrick;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+    }
+    .add-course{
+        input[type='text']{
+            width: 80%;
+            padding: 10px 15px;
+            border: none;
+            outline: none;
+            background-color: #ddd;
+        }
+        input[type='submit']{
+            width: 20%;
+            background-color: darkcyan;
+            color: white;
+            padding: 10px 15px;
+            cursor: pointer;
+            border: none;
+            outline: none;
+        }
+    }
+    ul{
+        list-style: none;
+        margin-top: 15px;
+        li{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: cornflowerblue;
+            padding: 15px;
+            margin-bottom: 10px;
+            span{
+                color: white;
+                font-size: 18px;
+                font-weight: bold;
+            }
+            button{
+                padding: 10px 15px;
+                border: none;
+                outline: none;
+                color: white;
+                cursor: pointer;
+                &:first-of-type{
+                    background-color: darkslateblue;
+                    margin-right: 10px;
+                }
+                &:last-of-type{
+                    background-color: crimson;
+                }
+            }
+            &:last-of-type{
+                margin-bottom: 0;
+            }
+        }
+        form{
+            display: flex;
+            padding: 15px;
+            background-color: deepskyblue;
+            input[type='text']{
+                width: 80%;
+                padding: 10px 15px;
+                border: none;
+                outline: none;
+                background-color: #fff;
+            }
+            button{
+                width: 20%;
+                padding: 10px 15px;
+                border: none;
+                outline: none;
+                color: white;
+                cursor: pointer;
+                background-color: dodgerblue;
+            }
+        }
+        p{
+            color: crimson;
+            font-size: 18px;
+            text-align: center;
+            font-weight: bold;
+        }
+    }
+}

@@ -1,0 +1,129 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: darkslategrey;
+}
+
+.App {
+  width: 800px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 50px;
+}
+
+.App h2 {
+  background-color: firebrick;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.App .add-course input[type='text'] {
+  width: 80%;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  background-color: #ddd;
+}
+
+.App .add-course input[type='submit'] {
+  width: 20%;
+  background-color: darkcyan;
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.App ul {
+  list-style: none;
+  margin-top: 15px;
+}
+
+.App ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: cornflowerblue;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.App ul li span {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.App ul li button {
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+}
+
+.App ul li button:first-of-type {
+  background-color: darkslateblue;
+  margin-right: 10px;
+}
+
+.App ul li button:last-of-type {
+  background-color: crimson;
+}
+
+.App ul li:last-of-type {
+  margin-bottom: 0;
+}
+
+.App ul form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px;
+  background-color: deepskyblue;
+}
+
+.App ul form input[type='text'] {
+  width: 80%;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+}
+
+.App ul form button {
+  width: 20%;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  background-color: dodgerblue;
+}
+
+.App ul p {
+  color: crimson;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
